@@ -130,7 +130,7 @@ export default function App() {
 
     const receiptHtml = `
       <div style="font-family: Inter, Arial, sans-serif; color:#0b131a;">
-        <h2>FTUK — Payment Receipt</h2>
+        <h2>FTUK â€” Payment Receipt</h2>
         <p>Thank you ${form.fullName || "trader"} for your payment.</p>
         <ul>
           <li>Amount: $${form.amount}</li>
@@ -199,7 +199,7 @@ Date: ${new Date().toLocaleString()}`
               <div className="text-right">
                 <div className="text-sm text-slate-400">Secure Payment</div>
                 <div className="text-xs text-slate-500">
-                  SSL · PCI Compliant
+                  SSL Â· PCI Compliant
                 </div>
 
                 <div className="mt-2">
@@ -369,7 +369,7 @@ Date: ${new Date().toLocaleString()}`
                   />
                   {isPowerup && (
                     <div className="text-sm text-green-400 mt-2">
-                      POWERUP applied — 35% off
+                      POWERUP applied â€” 35% off
                     </div>
                   )}
                 </div>
@@ -440,7 +440,7 @@ Date: ${new Date().toLocaleString()}`
                       className="px-4 py-2 rounded-md bg-transparent border border-slate-700 text-slate-300 text-sm"
                     >
                       {sendingEmail
-                        ? "Sending…"
+                        ? "Sendingâ€¦"
                         : emailSent
                         ? "Receipt sent"
                         : "Email receipt"}
@@ -526,7 +526,7 @@ Date: ${new Date().toLocaleString()}`
 
                   <div className="flex justify-between mt-2">
                     <span className="text-slate-400">Card</span>
-                    <span>•••• {form.cardNumber.slice(-4)}</span>
+                    <span>â€¢â€¢â€¢â€¢ {form.cardNumber.slice(-4)}</span>
                   </div>
                 </div>
 
@@ -550,7 +550,7 @@ Date: ${new Date().toLocaleString()}`
           </div>
 
           <footer className="border-t border-slate-800 p-4 text-xs text-slate-500 flex items-center justify-between">
-            <div>Secure · FTUK</div>
+            <div>Secure Â· FTUK</div>
             <div>
               Need help?{" "}
               <a className="underline" href="#">
